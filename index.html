@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chiran Kavinda — E-Portfolio</title>
+  <style>
+    :root{--accent:#0b72ff;--muted:#6b7280;--bg:#f7fafc}
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#0f172a;margin:0;background:var(--bg)}
+    header{background:white;box-shadow:0 2px 8px rgba(15,23,42,.06);position:sticky;top:0;z-index:10}
+    .container{max-width:980px;margin:0 auto;padding:28px}
+    nav{display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:700;color:var(--accent)}
+    .nav-links a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:600}
+    main{padding:32px 0}
+    .hero{display:flex;gap:28px;align-items:center}
+    .card{background:white;border-radius:12px;padding:20px;box-shadow:0 6px 18px rgba(15,23,42,.06)}
+    .profile-photo{width:120px;height:120px;border-radius:12px;background:linear-gradient(135deg,#e2e8f0,#fff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#334155}
+    h1{margin:0 0 6px;font-size:22px}
+    p.lead{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:24px}
+    section h2{margin-top:0}
+    .cv-section{display:flex;flex-direction:column;gap:12px}
+    .item{background:linear-gradient(180deg,#fff,#fbfcfd);padding:12px;border-radius:8px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#eef2ff;color:#0b72ff;padding:6px 8px;border-radius:999px;font-weight:600;font-size:13px}
+    pre.cover{white-space:pre-wrap;word-wrap:break-word;font-family:inherit;background:#0f172a;color:#fff;padding:14px;border-radius:8px;overflow:auto}
+    footer{padding:28px 0;text-align:center;color:var(--muted)}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.nav-links{display:none}.hero{flex-direction:column;align-items:flex-start}.profile-photo{width:96px;height:96px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">Chiran Kavinda — E-Portfolio</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#cv">CV</a>
+          <a href="#cover">Cover Letter</a>
+          <a href="#assignment">Assignment</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div style="flex:1">
+        <h1>Chiran Kavinda</h1>
+        <p class="lead">Biotechnology graduate • Food Product Engineer intern • Aspiring Quality Assurance professional</p>
+        <div style="margin-top:12px">
+          <strong>Applying for:</strong> QA Manager (Fixed-Term Contract) — Cape Herb and Spice, Maitland
+        </div>
+      </div>
+      <div class="profile-photo">CK</div>
+    </section>
+
+    <div class="grid">
+      <div>
+        <section id="about" class="card">
+          <h2>About Me</h2>
+          <p>I am a Biotechnology graduate with practical industry experience as a Food Product Engineer intern at Nestlé Lanka PLC. I hold certification in Food Safety &amp; HACCP and have hands-on experience with quality control, environmental monitoring, process optimization, and traceability activities. I am motivated to transition into a QA role where I can contribute to continuous improvement and food safety systems.</p>
+        </section>
+
+        <section id="cv" class="card" style="margin-top:16px">
+          <h2>Curriculum Vitae (Summary)</h2>
+          <div class="cv-section">
+            <div class="item">
+              <strong>Education</strong>
+              <div>BSc in Biotechnology</div>
+            </div>
+
+            <div class="item">
+              <strong>Industry Experience</strong>
+              <div><strong>Food Product Engineer Intern</strong> — Nestlé Lanka PLC</div>
+              <ul style="margin:8px 0 0 18px">
+                <li>Supported process optimization and product quality checks</li>
+                <li>Assisted with environmental monitoring and sampling</li>
+                <li>Participated in traceability and mass-balance exercises</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <strong>Key Skills</strong>
+              <div class="skills">
+                <span class="skill">HACCP</span>
+                <span class="skill">GMP</span>
+                <span class="skill">Environmental Monitoring</span>
+                <span class="skill">Quality Control</span>
+                <span class="skill">Microsoft Excel</span>
+                <span class="skill">Minitab</span>
+                <span class="skill">MATLAB</span>
+                <span class="skill">AutoCAD</span>
+              </div>
+            </div>
+
+            <div class="item">
+              <strong>Certifications &amp; Languages</strong>
+              <div>Food Safety &amp; HACCP (certified). Languages: Sinhala (native), English (proficient).</div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="cover" class="card" style="margin-top:16px">
+          <h2>Cover Letter</h2>
+          <pre class="cover">Date: [Insert Date]
+
+Hiring Manager
+Cape Herb and Spice
+Maitland
+
+Dear Hiring Manager,
+
+I am writing to express my interest in the QA Manager (Fixed-Term Contract) position at Cape Herb and Spice. As a Biotechnology graduate with practical internship experience as a Food Product Engineer at Nestlé Lanka PLC and certification in Food Safety & HACCP, I am confident in my ability to support and enhance your quality and food safety systems.
+
+During my internship, I gained hands-on experience in environmental monitoring, quality control, process optimization, and applying HACCP and GMP principles. I assisted with sampling, investigated non-conformances, supported traceability activities, and worked with cross-functional teams to ensure timely corrective actions. These experiences have equipped me with strong analytical, problem-solving, and communication skills, which I will bring to the QA Manager role.
+
+I am motivated by Cape Herb and Spice’s commitment to continuous improvement and high standards in food safety. I welcome the opportunity to contribute to your team by conducting environmental swabbing and testing, supporting customer complaint investigations, and ensuring timely closeout of non-conformances.
+
+Thank you for considering my application. I look forward to the opportunity to discuss my qualifications further and to demonstrate how I can add value to your quality assurance team.
+
+Sincerely,
+Chiran Kavinda
+[Email] | [Phone]
+</pre>
+        </section>
+
+        <section id="assignment" class="card" style="margin-top:16px">
+          <h2>Assignment: E-Portfolio (SC1172)</h2>
+          <p>This e-Portfolio was developed as part of <strong>SC1172: Introduction to Information Technology</strong>. It demonstrates my ability to use GitHub, Markdown, and HTML to create an online portfolio showcasing my resume, cover letter, assignment descriptions, and reflective writing. The portfolio highlights projects, certifications, and samples of work relevant to securing internships and graduate employment in the food science and biotechnology fields.</p>
+
+          <h3 style="margin-top:12px">Assignment Description</h3>
+          <p>The objective was to design and implement a personal website using GitHub Pages, Markdown, and HTML. The website presents my professional details, CV, and supporting documents such as the tailored cover letter for a QA Manager role at Cape Herb and Spice.</p>
+
+          <h3 style="margin-top:12px">Reflection</h3>
+          <p>Creating this CV and cover letter helped me practice tailoring application documents for a specific job. I learned the importance of highlighting transferable skills from my Food Product Engineer internship—such as environmental monitoring, HACCP application, and problem-solving—to make a strong case for a QA role. The e-Portfolio development also improved my web publishing skills and ability to present professional material clearly online.</p>
+        </section>
+
+      </div>
+
+      <aside>
+        <section class="card">
+          <h2>Contact</h2>
+          <p><strong>Email:</strong> [your.email@example.com]<br>
+          <strong>Phone:</strong> [+94 XXXXXXXXX]</p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2>Quick Links</h2>
+          <p><a href="#cv">Download CV (PDF)</a> — add your file to GitHub Pages.<br>
+          <a href="#cover">View Cover Letter</a></p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2>Notes for Submission</h2>
+          <ul>
+            <li>Host the site on GitHub Pages and link your repository in the assignment submission.</li>
+            <li>Include copies of qualifications when submitting the CV (per job requirement).</li>
+            <li>Ensure mobile responsiveness and clear navigation for assessors.</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>Made by Chiran Kavinda — E-Portfolio for SC1172</small>
+    </div>
+  </footer>
+</body>
+</html>
